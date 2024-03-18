@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="py-6  fixed top-0 w-full z-20 bg-white">
+        <div class="container mx-auto px-5">
+            <nav class="flex justify-between items-center">
+                <img src="../image/Waves.png" alt="">
+
+                <ul class="hidden md:flex h-full items-center gap-x-14">
+                    <li><a class=" text-[16px] hover:text-violet-800 active::text-[18px]" href="../index.html">Home</a></li>
+                    <li><a class=" text-[16px] hover:text-violet-800 active::text-[18px]" href="#">About us</a></li>
+                    <li><a class=" text-[16px] hover:text-violet-800 active::text-[18px]" href="#">Blog</a></li>
+                    <li><a class=" text-[16px] hover:text-violet-800 active::text-[18px]" href="./index.html">Services</a></li>
+                </ul>
+
+                <button class="bg-violet-800 py-2 px-8 w-[157px] h-[44px] flex items-center gap-2 text-white text-[16px]">Contct us <img src="../image/strel.svg" alt=""></button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="intro mt-[80px]">
+            <div class="container mx-auto">
+                <div class="title text-center  md:text-start px-[181px]">
+                    <h1 class=" text-[62px] md:text-[62px] mt-[160px]  mb-10">Interested? <br>
+                        Let’s talk!</h1>
+                    <h4 class=" md:text-[24px] mb-20 ">Just fill this form and we will contact you promptly to discuss <br>your project. Hate forms? Drop us a message at <br><small class="text-violet-800">info@waves.com or hello@waves.com</small></h4>
+                   
+                </div>
+                <div class="inputt  md:flex flex-col px-[181px]">
+                    <input class=" border-b w-[519px] py-4 text-[24px]" type="text" placeholder="Your Name" maxlength="50" minlength="5">
+                    <input class="border-b w-[519px] py-4 text-[24px]" type="text" placeholder="Your Email" maxlength="50" minlength="5">
+                    <input class="border-b w-[519px] py-4 text-[24px]" type="number" placeholder="Tell us About Your Project">
+                    <div class="area flex items-center py-3">
+                        <img class="w-6 h-6" src="./images/z.svg" alt="">
+                        <textarea  class="text-[24px] opacity-50 py-4 px-[30px] decoration-wavy underline" name="" id="" cols="30" rows="">Add Attachment</textarea>
+                    </div>
+                    <button class=" bg-violet-800 text-white gap-2 w-[197px] h-[60px] flex items-center px-8 text-[16px] mb-20">Send Request <img src="../image/strel.svg" alt=""></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="end">
+            <div class="container mx-auto">
+                <div class="wave w-[1440px] py-[190px]">
+                    <img  class=" z-0 w-[720px] md:w-[1461px]" src="../image/vectoeeeeee.png" alt="">
+
+                    <div class="partners ms-24 md: -translate-y-[260px] translate-x-[110px] w-[1073px] flex   items-end justify-between gap-6">
+                        <img class="ms-20" src="../image/Waves foot.png" alt="">
+                        <ul class="hidden md:flex text-white gap-20 justify-between text-[24px]">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#"></a>Service</li>
+                        </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="webs hidden  md:-translate-y-[380px] translate-x-[1050px]">
+                        <div class="me flex gap-6">
+                            <img src="../image/face.png" alt="">
+                            <img src="../image/x.png" alt="">
+                            <img src="../image/insta.png" alt="">
+                            <img src="../image/in.png" alt="">
+                        </div>
+                        <div class="hidden md:border-b w-[1200px] border-[#BDB0EC] -translate-x-[980px] translate-y-[65px]"></div>
+                    </div>
+                    <img class="block md:hidden -mt-[673px] ms-[50px] w-[900px] z-10" src="../image/black.png" alt="">
+                    <img  class="hidden md:block  -mt-[1200px] ms-[184px] w-[1100px] z-30 " src="../image/redy.png" alt="">
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
